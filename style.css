@@ -63,6 +63,11 @@ button {
     border-radius: 40px;
 }
 
+button:hover {
+    transform: translateX(10px);
+    transition: transform 0.3s ease;
+}
+
 ul li {
     list-style: none;
     font-size: 17px;
